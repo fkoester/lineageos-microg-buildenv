@@ -16,7 +16,7 @@ docker run \
     -e "OTA_URL=https://api.lineage.microg.org" \
     -e "CRONTAB_TIME=now" \
     -e "SIGNATURE_SPOOFING=restricted" \
-    -e "CUSTOM_PACKAGES=GmsCore GsfProxy FakeStore FDroid FDroidPrivilegedExtension MozillaNlpBackend NominatimNlpBackend com.google.android.maps.jar" \
+    -e "CUSTOM_PACKAGES=GmsCore GsfProxy FakeStore FDroid FDroidPrivilegedExtension MozillaNlpBackend NominatimNlpBackend com.google.android.maps.jar YalpStore" \
     -e "SIGN_BUILDS=false" \
     -e "CLEAN_OUTDIR=false" \
     -e "CLEAN_AFTER_BUILD=true" \
