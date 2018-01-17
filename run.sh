@@ -3,6 +3,8 @@
 DEVICES=FP2
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+docker pull lineageos4microg/docker-lineage-cicd
+
 docker run \
     --name=lineage-$(date +%Y%m%d_%H%M) \
     --rm \
