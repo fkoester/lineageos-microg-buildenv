@@ -11,6 +11,8 @@ In addition, we add the Yalp Store APK via this repository: https://github.com/f
 This project is focused primarily on the Fairphone 2, but you can change the `DEVICES` variable in `run.sh` to built for other targets.
 You then probably also need to modify the list of proprietary repositories in `local_manifests/vendor.xml`.
 
+**Note**: You need around 80 GiB free space in the `work/` directory.
+
 Usage:
 
 * Start docker
