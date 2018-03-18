@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <!-- From https://github.com/TheMuppets/manifests/blob/cm-14.1/muppets.xml -->
-  <project name="TheMuppets/proprietary_vendor_fairphone" path="vendor/fairphone"/>
-</manifest>
