@@ -1,6 +1,5 @@
 #! /bin/sh
 
-DEVICES=FP2
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 docker pull lineageos4microg/docker-lineage-cicd
@@ -13,8 +12,8 @@ docker run \
     -e "USER_MAIL=foo@example.com" \
     -e "WITH_SU=false" \
     -e "RELEASE_TYPE=microG" \
-    -e "DEVICE_LIST=$DEVICES" \
-    -e "BRANCH_NAME=cm-14.1" \
+    -e "DEVICE_LIST=${DEVICES}" \
+    -e "BRANCH_NAME=${BRANCH_NAME}" \
     -e "OTA_URL=https://api.lineage.microg.org" \
     -e "CRONTAB_TIME=now" \
     -e "SIGNATURE_SPOOFING=restricted" \
