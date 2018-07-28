@@ -25,6 +25,7 @@ docker run \
     -e "LOGS_SUBDIR=true" \
     -e "DELETE_OLD_ZIPS=3" \
     -e "DELETE_OLD_LOGS=3" \
+    -e "INCLUDE_PROPRIETARY=${INCLUDE_PROPRIETARY}" \
     -v "${DIR}/work/cache:/srv/ccache" \
     -v "${DIR}/work/lineage:/srv/src" \
     -v "${DIR}/work/zips:/srv/zips" \
