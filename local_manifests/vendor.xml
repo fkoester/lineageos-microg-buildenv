@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- From https://github.com/boulzordev/android_vendor_motorola_potter -->
+  <project name="boulzordev/android_vendor_motorola_potter" path="vendor/motorola/potter"/>
+</manifest>
