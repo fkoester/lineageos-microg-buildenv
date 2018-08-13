@@ -5,5 +5,5 @@
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
   <project name="boulzordev/android_device_motorola_potter" path="device/motorola/potter" remote="github" revision="lineage-15.1-64" />
   <project name="boulzordev/android_vendor_motorola_potter" path="vendor/motorola/potter" remote="github" revision="lineage-15.1-64" />
-  <project name="boulzordev/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="github" revision="ad3e5cad847ea922de5f3996295b92078e1cd094" />
+  <project name="boulzordev/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="github" revision="lineage-15.1-64" />
 </manifest>
