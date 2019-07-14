@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project path="prebuilts/prebuiltapks" name="lineageos4microg/android_prebuilts_prebuiltapks" remote="github" revision="master" />
-  <project path="prebuilts/prebuiltapks/YalpStore" name="fkoester/lineage_microg_yalp_prebuiltapk" remote="github" revision="master" />
-</manifest>
