@@ -29,6 +29,7 @@ docker run \
     -v "${DIR}/work/lineage:/srv/src" \
     -v "${DIR}/work/zips:/srv/zips" \
     -v "${DIR}/work/logs:/srv/logs" \
+    -v "${DIR}/work/keys:/srv/keys" \
     -v "${DIR}/local_manifests:/srv/local_manifests" \
     -v "${DIR}/scripts:/srv/userscripts" \
     lineageos4microg/docker-lineage-cicd
